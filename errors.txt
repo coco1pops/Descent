@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script_chihura.rpy", line 513: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    "She gives a little groan as he enters her. She\'s so wet and his cock pushes deep inside, fitting her perfectly"
+    ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Sun May 26 08:19:01 2024

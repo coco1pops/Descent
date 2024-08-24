@@ -1,0 +1,38 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 29, in script call
+    call expression chosen from start_06
+  File "game/script_maki.rpy", line 507, in script call
+    call message("makiA", m.c.name, "Wanna do some more shots? We can make some exclusive content that people pay a bit extra for. We\'ll make
+  File "game/script_phone.rpy", line 194, in script
+    label message(avatar, who, what):
+SyntaxError: EOL while scanning string literal (game/script_maki.rpy, line 507)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 29, in script call
+    call expression chosen from start_06
+  File "game/script_maki.rpy", line 507, in script call
+    call message("makiA", m.c.name, "Wanna do some more shots? We can make some exclusive content that people pay a bit extra for. We\'ll make
+  File "game/script_phone.rpy", line 194, in script
+    label message(avatar, who, what):
+  File "C:\renpy\renpy-8.0.3-sdk\renpy\ast.py", line 1710, in execute
+    args, kwargs = self.arguments.evaluate()
+  File "C:\renpy\renpy-8.0.3-sdk\renpy\ast.py", line 342, in evaluate
+    value = renpy.python.py_eval(v, locals=scope)
+  File "C:\renpy\renpy-8.0.3-sdk\renpy\python.py", line 1090, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\renpy\renpy-8.0.3-sdk\renpy\python.py", line 1027, in py_compile
+    raise e
+  File "C:\renpy\renpy-8.0.3-sdk\renpy\python.py", line 979, in py_compile
+    raise orig_e
+  File "C:\renpy\renpy-8.0.3-sdk\renpy\python.py", line 972, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: EOL while scanning string literal (game/script_maki.rpy, line 507)
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.0.3.22090809
+Descent 1.0
+Tue Jun  4 07:15:17 2024
