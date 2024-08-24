@@ -550,7 +550,7 @@ label choose_Chihura:
             c.c "You\'re so good to play with Honeybun. Particularly now that you\'re a beautiful girl with a nice, big cock"
             "He giggles, tossing his head"
             i.c "That\'s because my lovely mistress taught me to be so naughty and pervy"
-            "They hug and kiss for a few minues. [c.c.name] has a lecture to do so they reluctantly untangle themselves and get
+            "They hug and kiss for a few minutes. [c.c.name] has a lecture to do so they reluctantly untangle themselves and get
             dressed"
 
 
